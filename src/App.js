@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+// import NewHuman from "./NewHuman";
+import CreateHuman from "./CreateHuman";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    // const [human, setHuman] = useState([]);
+
+    // const newuser = (human) => {
+    //     console.log('need to add human', human)
+    // };
+
+    return <div>
+        <CreateHuman />
+    </div>;
 }
 
-export default App;
+export default App; 
